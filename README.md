@@ -1,14 +1,14 @@
-# CRUD API using JDBC
+# 🏢 CRUD API using JDBC
 
 This project is a **CRUD (Create, Read, Update, Delete) API** for managing employees, built with **Java and JDBC**. It demonstrates clean layering with DTO, DAO, Service, Controller, and Database Connection classes.
 
-## Tech Stack
-- **Java** (JDK 8+)
-- **JDBC** for database interaction
-- **MySQL** (or any relational DB)
-- Maven for project management
+## 🛠 Tech Stack
+- 💻 **Java** (JDK 8+)
+- 🔗 **JDBC** for database interaction
+- 🗄 **MySQL** (or any relational DB)
+- 📦 Maven for project management
 
-## Project Structure
+## 📂 Project Structure
 ```
 src/
 └─ main/
@@ -20,16 +20,16 @@ src/
 pom.xml # Maven config
 ```
 
-## Features / API Methods
-- **Add Employee** – Insert a single employee into the database  
-- **Add Multiple Employees** – Insert multiple employees in batch  
-- **Update Employee** – Update employee details by ID  
-- **Delete Employee** – Remove a single employee by ID  
-- **Delete Multiple Employees** – Remove multiple employees in batch  
-- **Get Employee by ID** – Retrieve a single employee  
-- **Get All Employees** – Retrieve all employees
+## ✨ Features / API Methods
+- ➕ **Add Employee** – Insert a single employee into the database  
+- ➕ **Add Multiple Employees** – Insert multiple employees in batch  
+- ✏️ **Update Employee** – Update employee details by ID  
+- ❌ **Delete Employee** – Remove a single employee by ID  
+- ❌ **Delete Multiple Employees** – Remove multiple employees in batch  
+- 🔍 **Get Employee by ID** – Retrieve a single employee  
+- 🔍 **Get All Employees** – Retrieve all employees
 
-## Database Setup
+## 🗄 Database Setup
 1. Create a database:
 ```
 CREATE DATABASE employee_db;
@@ -50,7 +50,7 @@ CREATE DATABASE employee_db;
 3. Update database credentials in connection class.
 
 
-## How to Run
+## 🚀 How to Run
 1. Clone the repository.
 2. Open in IDE (Eclipse, IntelliJ, etc.).
 3. Build with Maven: mvn clean install
@@ -58,8 +58,8 @@ CREATE DATABASE employee_db;
 5. Test methods using Postman or any HTTP client.
 
 
-## Contributing
+## 🤝 Contributing
 Fork the repository and submit pull requests.
 
-## License
+## ⚖️ License
 MIT License
