@@ -1,0 +1,44 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Eclipse Specific Files
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ Specific
+.idea/
+*.iml
+*.iws
+out/
+
+# OS Generated
+.DS_Store
+Thumbs.db
