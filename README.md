@@ -9,6 +9,7 @@ This project is a **CRUD (Create, Read, Update, Delete) API** for managing emplo
 - Maven for project management
 
 ## Project Structure
+```
 src/
 └─ main/
 ├─ dto/ # Employee data transfer objects
@@ -17,7 +18,7 @@ src/
 ├─ controller/ # API endpoints / request handling
 └─ connection/ # Database connection setup
 pom.xml # Maven config
-
+```
 
 ## Features / API Methods
 - **Add Employee** – Insert a single employee into the database  
