@@ -41,7 +41,7 @@ CREATE DATABASE employee_db;
     name VARCHAR(50),
     email VARCHAR(50),
     password VARCHAR(50),
-    phone VARCHAR(20),
+    phone BigInt(12),
     doj DATE,
     designation VARCHAR(50),
     gender VARCHAR(10)
